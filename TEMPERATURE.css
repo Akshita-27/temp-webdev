@@ -1,0 +1,45 @@
+*{
+    background-color:rgb(39, 39, 154);  
+    color:azure;
+    text-align:center; 
+    padding-top: 45px;
+}
+label{
+    font-size: 20px;
+}
+.bucket{
+    text-align: center;
+    margin-top: 195px;
+    margin-bottom: 280px;
+    padding-left: 230px;
+    background-color: beige;
+                                                 
+}
+input{
+    background-color:rgb(249, 158, 2);
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size:large;
+    font-size: 23px;
+    padding: 12px;
+}
+.button{
+    background-color:rgb(30, 53, 201);
+    color:azure;
+    height:auto;
+    width:175px;
+    align-items: center;
+    border:none;
+    padding-top:100px;
+    padding: 13px;
+    margin: 40px;
+}
+
+.REFRESH{
+    background-color:lightgreen;
+    color:green;
+    width: 130px;
+    padding-top:1px;
+    margin-bottom: 30px;
+    align-content:center;
+    padding-right: 20px;
+}

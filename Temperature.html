@@ -1,0 +1,28 @@
+
+<!doctype html>
+<html lang = "en">
+    <head>
+        <title>Temperature</title>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA Compatible" content="IE=edge">
+        <meta name="viewport" content="width-device-width", initial-scale="2">
+        <link rel ="stylesheet" href ="TEMPERATURE.css">
+
+    </head>
+    <body>
+        <div class="Bucket">
+            <h1>Temperature Converter</h1>
+            <label for="celsius">celsius</label>&nbsp;&nbsp;&nbsp;
+            <input id="celsius" type="text" placeholder="ENTER CELSIUS">&nbsp;&nbsp;&nbsp;
+            <label for="fahrenheit">fahrenheit</label>
+            <input id="fahrenheit" type="text" placeholder ="ENTER FAHRENHEIT">
+            <br><br>
+            <button class ="button" onclick="convertingtofahrenheit()">CONVERTING TO FAHRENHEIT</button>
+            <button class ="button" onclick="convertingtocelsius()">CONVERTING TO CELSIUS</button>
+            <br><br>
+            <button class ="REFRESH" id="REFRESH" onclick="REFRESH()">REFRESH</button>     
+        </div>
+        <script src="temperature,js.js"></script>
+    </body>
+</html>
+
